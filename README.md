@@ -8,4 +8,4 @@ Also in IAM & Admin field at Service Account, a new service account should be cr
 
 ## Working example
 
-![Image of the application][images\workingExample.png]
+![Image of the application][images/workingExample.png]
