@@ -9,7 +9,6 @@ async function generateBotResponse(languageCode, queryText, sessionId) {
     const sessionClient = new dialogflow.SessionsClient();
     const sessionPath = sessionClient.projectAgentSessionPath(PROJECT_ID, sessionId);
 
-    //Making request to the API
     const request = {
         session: sessionPath,
         queryInput: {
